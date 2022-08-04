@@ -1,4 +1,4 @@
-const num = 12
+const num = 33
 
 if(num % 2 === 0){
     alert("O número é par")
