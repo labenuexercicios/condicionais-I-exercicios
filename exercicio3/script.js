@@ -1,21 +1,17 @@
-let nacionalidade = prompt("Digite aqui sua nacionalidade")
+let nacionalidade = prompt("Digite aqui sua nacionalidade").toLowerCase()
 
 
-const brasileira = "brasileira"
-
-const argentina = "argentina"
-
-const uruguaia = "uruguaia"
-
-const chilena = "chilena"
-
-const colombiana = "colombiana"
-
-if (nacionalidade === brasileira || argentina || uruguaia || chilena || colombiana) {
+if (nacionalidade === "brasileira" || nacionalidade === "brasileiro") {
 console.log("Sua nacionalidade é", nacionalidade)
-}
-
-
+} else if (nacionalidade === "argentina" || nacionalidade === "argentino") {
+    console.log("Sua nacionalidade é", nacionalidade)
+} else if (nacionalidade === "uruguaia" || nacionalidade === "uruguaio") {
+    console.log("Sua nacionalidade é", nacionalidade)
+} else if (nacionalidade === "chilena" || nacionalidade === "chileno") {
+    console.log("Sua nacionalidade é", nacionalidade)
+} else if (nacionalidade === "colombiana" || nacionalidade === "colombiano") {
+    console.log("Sua nacionalidade é", nacionalidade)
+} else { console.log("Nacionalidade não encontrada")}
 
 
 
