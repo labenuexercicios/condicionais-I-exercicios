@@ -17,15 +17,14 @@ O último `else` deve imprimir "nacionalidade não encontrada" caso o valor de `
 
 const nacionalidade =prompt("Qual a sua nacionalidade?")
 
-if(nacionalidade === ("brasileira" || "brasileiro")){
+if(nacionalidade === 'brasileira' || nacionalidade ==='brasileiro'){
     console.log("1 A nacionalidade informada é", nacionalidade)
-}
-else if(nacionalidade === ("argentina" || "argentino")){
+}else if(nacionalidade === 'argentina' || nacionalidade ==='argentino'){
     console.log(" 2 A nacionalidade informada é", nacionalidade)
-}
-else if(nacionalidade === ("uruguaia" || "uruguaio")){
+}else if(nacionalidade === 'uruguaia' || nacionalidade ==='uruguaio'){
     console.log("3 A nacionalidade informada é", nacionalidade)
-}else if(nacionalidade === ("colombiana" || "colombiano")){
+}else if(nacionalidade === 'colombiana' || nacionalidade ==='colombiano'){
     console.log("4 A nacionalidade informada é", nacionalidade)
-}else{console.log("nacionalidade nao encontrada")
+}else{
+    console.log("nacionalidade nao encontrada")
 }
