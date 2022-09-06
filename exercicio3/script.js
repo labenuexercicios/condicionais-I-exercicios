@@ -14,8 +14,10 @@
 // > 💡 Lembre-se de prestar atenção às letras maiúsculas e minúsculas. 
 
 
-let nacionalidade = prompt("qual a sua nacionalidade")
-const nacionalidadeConst = nacionalidade
+let nacionalidade = prompt("qual a sua nacionalidade").toLowerCase()
+
+const nacionalidadeConst = nacionalidade.trim()
+
 if(nacionalidadeConst === "brasileira" 
 || nacionalidadeConst === "argentina"
 || nacionalidadeConst === "uruguaia"
