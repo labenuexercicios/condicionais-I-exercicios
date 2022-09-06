@@ -1,5 +1,7 @@
-const num = //seu numero aqui
+const num = Number(prompt("Escolha um número"))
+//const restoDivNum = num % 2
+// const restoDivNum entrou no parenteces do IF
 
-if(){
-    console.log("sua mensagem aqui");
+if(num % 2 === 0){
+    console.log("Esse número é par!");
 }
