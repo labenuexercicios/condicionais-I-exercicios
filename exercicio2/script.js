@@ -14,10 +14,10 @@ if(isEnsinoMedio){
 	console.log("Ainda não tem diploma do ensino médio!")
 }
 
-if(isCursandoOutraFaculdade){
-    console.log("Está cursando uma faculdade!")
+if(!isCursandoOutraFaculdade){
+    console.log("Ainda não está cursando uma faculdade!")
 }else{
-	console.log("Ainda não está cursando uma faculdade!")
+	console.log("Está cursando uma faculdade!")
 }
 
 
