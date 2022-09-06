@@ -1,8 +1,8 @@
 const num = Number(prompt("Digite um número:"))
 
 if(num % 2 ===0){
-    console.log("O número é par")
+    console.log("O número é par!")
 }
 else{
-    console.log("Número ímpar")
+    console.log("Número ímpar!")
 }
