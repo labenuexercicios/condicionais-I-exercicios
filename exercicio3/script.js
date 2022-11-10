@@ -1,4 +1,5 @@
 let nacionalidade = prompt("Qual é a sua nacionalidade?")
+nacionalidade = nacionalidade.toLowerCase()
 
 const funcao =() =>{
 
