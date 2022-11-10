@@ -1,5 +1,7 @@
-const num = //seu numero aqui
+const num = 20
 
-if(){
-    console.log("sua mensagem aqui");
+const isPair = (num) => {
+    if(num % 2 === 0) console.log("O número é par");
 }
+
+isPair(num);
