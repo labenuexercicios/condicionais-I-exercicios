@@ -1,5 +1,6 @@
-const num = //seu numero aqui
+const num = [15]//seu numero aqui
 
-if(){
-    console.log("sua mensagem aqui");
-}
+
+const numerico = 10
+
+if (10){ console.log } 
