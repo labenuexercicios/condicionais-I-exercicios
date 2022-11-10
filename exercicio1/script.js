@@ -1,5 +1,5 @@
-const num = //seu numero aqui
+const numPar = Number(prompt('Insira um número: '))
 
-if(){
-    console.log("sua mensagem aqui");
+if(numPar % 2 === 0){
+    console.log('O seu número é Par!')
 }
