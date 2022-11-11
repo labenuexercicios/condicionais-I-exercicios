@@ -1,8 +1,8 @@
 # Exercício 3
 
-Crie uma função que receba do usuário sua nacionalidade, utilize um **prompt** que diga: "Escreva aqui sua nacionalidade" e guarde o valor da resposta em uma const `nacionalidade`.
+Crie uma função que receba do usuário sua nacionalidade, utilize um **prompt** que diga: "Escreva aqui sua nacionalidr que nosso programa aceitaade" e guarde o valor da resposta em uma const `nacionalidade`.
 
-Vamos considerar que nosso programa aceita as seguintes 5 nacionalidades:
+Vamos considera as seguintes 5 nacionalidades:
 - brasileira;
 - argentina;
 - uruguaia;
