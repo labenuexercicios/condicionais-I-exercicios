@@ -20,7 +20,7 @@ function verificanacionalidade (nacionalidade2){
 }
 
 
-let nacionalidade = prompt("Digite sua nacionalidade -Digite tudo minusculo.")
-//const diminuiotamanhodafrase = nacionalidade.toLowerCase
-verificanacionalidade(nacionalidade)
+let nacionalidade = prompt("Digite sua nacionalidade\nEx.: Cubano")
+const diminuiotamanhodafrase = nacionalidade.toLowerCase()
+verificanacionalidade(diminuiotamanhodafrase)
 
